@@ -3,22 +3,50 @@
 <head>
     <title>Cards</title>
     <style>
+        body{
+            background-color: #f5f7fb;
+        }
+
         .card{
             border-radius: 10px;
-            background-color: aqua;
-            height: 150px;
-            width: 200px;
+            background-color: #ffffff;
+            height: 400px;
+            width: 400px;
             margin: 5px;
             display: inline-block;
             box-shadow: 0 0 2px gray ;
+            text-align: center;
+        }
+        .img{
+            height: 200px;
+            width: 400px;
+            object-fit: justify;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card-title{
+            color: #4b5563;
+            font-size: 20px;
+            margin: 5px;
+        }
+
+        .card-description{
+            color: #4a4751;
+        }
+
+        .calender-img{
+            height: 20px;
         }
     </style>
 </head>
 <body>
+    <div>
     <div class="card">
-        <>
+       <div> <img class="img" src="https://cdn.roadtocode.org/course-headers/icp.jpg"/> </div>
+      <div> <h4 class="card-title">Internship Cohort Program 9.0</h4>
+        <p class="card-description">Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀</p>
+        <p><img src="https://www.roadtocode.org/_next/static/media/calendar.0f0b65fe.png" class="calender-img"/>Starting from 4th June 2024</p>
+
     </div>
-    <div class="card">B</div>
-    <div class="card">C</div>
 </body>
 </html>
